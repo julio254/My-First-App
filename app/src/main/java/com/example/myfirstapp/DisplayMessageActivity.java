@@ -24,6 +24,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         textView.setText(message);
     }
 
+    // Opens my new activity by calling another function 
     public void playVideo (View v) {
         openMainVideo();
     }
